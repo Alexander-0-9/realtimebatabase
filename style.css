@@ -1,0 +1,91 @@
+
+/* Generelt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hovedboks */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Overskrifter */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Tekst */
+p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4a80f5;
+}
+
+/* Knapp */
+button {
+    width: 100%;
+    padding: 13px;
+    background: #4a80f5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #315fc5;
+}
+
+/* Personliste */
+ul {
+    list-style: none;
+}
+
+li {
+    background: #f0f2f5;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    color: #333;
+    border-left: 4px solid #4a80f5;
+}
